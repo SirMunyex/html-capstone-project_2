@@ -12,14 +12,10 @@
     color: white;
 }
 
-.logo-container {
-    width: 30%;
-    display: inline-block;
-    float: inline-start;
-    position: absolute;
-    left: 0px;
-    top: 5px;
-    z-index: -1;
+.logo {
+    display: inline;
+    background-color: rgb(170, 16, 16);
+    width: 20%;
 }
 
 .navlist {
@@ -35,20 +31,14 @@
     background-color: goldenrod;    
 }
 
-.logo {
-    display: inline-block;
-    width: 20%;
-}
-
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: rgb(170, 16, 16);
     height: 100%;
     padding: 0px;
-    position: sticky;
-    top: 0px;
+    position: relative;
 }
 
 .email {
