@@ -1,0 +1,72 @@
+.button {
+    background-color: rgb(170, 16, 16);
+    list-style: none;
+    width: 100px;
+    text-align: center;
+    padding: 20px 8px;
+    margin: 0px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-container {
+    width: 30%;
+    display: inline-block;
+    float: inline-start;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    z-index: -1;
+}
+
+.navlist {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.navlist :hover {
+    background-color: goldenrod;    
+}
+
+.logo {
+    display: inline-block;
+    width: 20%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(170, 16, 16);
+    height: 100%;
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+}
+
+.email {
+    background-color: rgb(170, 16, 16);
+    border: none
+}
+
+.btn-primary:hover {
+    background-color: rgb(145, 17, 17);
+    border: none
+}
+
+.whatsapp {
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgb(7, 107, 7);
+}
