@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solid Arts.CS</title>
     <link rel="icon" type="image/x-icon" href="./favicon-icon-grey-maroon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     
@@ -16,44 +16,72 @@
 
 <body>
 
-
+<!-- Navigation bar -->
 
 <div class="navbar">
 
-  <div class="logo-container">
-    <img class="logo" src="./resources/logo-side-by-side-white.png" style="width: 220px"/>
+  <div class="container">
+     <div class="logo-container">
+      <img class="logo" src="./resources/logo-side-by-side-white.png" style="width: 220px"/>
+     </div>
+
+   <ul class="navlist">
+     <li class="button"><a href="#home">Home</a></li>
+     <li class="button"><a href="./Under Construction/services.html">Services</a></li>
+     <li class="button"><a href="./Under Construction/portfolio.html">Portfolio</a></li>
+     <li class="button"><a href="#home">About Us</a></li>
+     <li class="button"><a href="#home">Contact Us</a></li>
+     <li class="button"><a href="#home">Blog</a></li>
+   </ul>
   </div>
-
-<ul class="navlist">
-<li class="button"><a href="#home">Home</a></li>
-<li class="button"><a href="#home">Services</a></li>
-<li class="button"><a href="#home">Portfolio</a></li>
-<li class="button"><a href="#home">About Us</a></li>
-<li class="button"><a href="#home">Contact Us</a></li>
-<li class="button"><a href="#home">Blog</a></li>
-</ul>
-
+  
 </div>
+
+<!-- Hero Section -->
 
 <section class="intro" style="background-image: url('./resources/background-image.png'); background-size: cover; background-attachment: fixed; height: auto; margin-top: 0px; margin-bottom: 0px; display: block" >
 
     <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./resources/logo_big.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            
+            <!-- Carousel -->
+            
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./resources/Carousel Photo/carousel photo_1.png" class="d-block w-100 rounded" alt="Corporate gifts">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/Carousel Photo/carousel photo_2.png" class="d-block w-100 rounded" alt="Corporate wear">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/Carousel Photo/carousel photo_3.png" class="d-block w-100 rounded" alt="Banners">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/Carousel Photo/carousel photo_4.png" class="d-block w-100 rounded" alt="Banners">
+                </div>
+                <div class="carousel-item">
+                  <img src="./resources/Carousel Photo/carousel photo_5.png" class="d-block w-100 rounded" alt="Stationery">
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Print - Brand - Design</h1>
-            <p class="lead">We are a leading provider of comprehensive design, print, and branding solutions. We are dedicated to delivering distinctive branding and marketing tools that yield tangible results for all our clients. We also offer <span style="color:brown; font-weight:bold" href="#">Alternative Media Solutions</span> designed to equip our clients with a competitive advantage in their respective market segments.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 email me-md-2"> <img src="resources/email-icon-white.png" style="width: 20px; margin:0px; padding-right: 3px"><a href="mailto: solidarts.cs@gmail.com" style="text-decoration: none; color: white">Email Us</a></button>
-              <button type="button" class="btn btn-outline-secondary  whatsapp btn-lg px-4"> <img src="./resources/whatsapp-icon-white.png" style="width: 20px; margin:0px; padding: 0px"><a href="https://wa.me/message/MFQVFEKEPWLKG1" style="text-decoration: none; color: white">WhatsApp Us</a></button>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Print - Brand - Design</h1>
+                <p class="lead">We are a leading provider of comprehensive design, print, and branding solutions. We are dedicated to delivering distinctive branding and marketing tools that yield tangible results for all our clients. We also offer <span style="color:brown; font-weight:bold" href="#">Alternative Media Solutions</span> designed to equip our clients with a competitive advantage in their respective market segments.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 email me-md-2"> <img src="resources/email-icon-white.png" style="width: 20px; margin:0px; padding-right: 3px"><a href="mailto: solidarts.cs@gmail.com" style="text-decoration: none; color: white">Email Us</a></button>
+                <button type="button" class="btn btn-outline-secondary  whatsapp btn-lg px-4"> <img src="./resources/whatsapp-icon-white.png" style="width: 20px; margin:0px; padding: 0px"><a href="https://wa.me/message/MFQVFEKEPWLKG1" style="text-decoration: none; color: white">WhatsApp Us</a></button>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+    </div>
 
 </section>
+
+<!-- Featured Services Section -->
 
 <section-2>
     <div class="container px-4 py-5" id="featured-3">
@@ -97,10 +125,35 @@
 
 </section-2>
 
+<!-- Why Us Section -->
+
+<section-3 class="intro" style="background-image: url('./resources/background-image.png'); background-size: cover; background-attachment: fixed; height: auto; margin-top: 0px; margin-bottom: 0px; display: block" >
+  <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Why Choose Us</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-10 my-5">
+        <p class="col mb-5 bg-muted">
+          Solid Arts Creativity Studio has been operating, producing and delivering design, printing and marketing solutions that help businesses grow since 2017. As a Commercial Printing Company based in Harare, Zimbabwe we have an established online presence as well as strong partnerships with various transporters which enables us to offer printing services to various clients accross the country and beyond the borders of Zimbabwe. 
+          <br/>
+          <br/>
+          With a team of experts on hand, offering great Customer Service and using the latest technology, materials and techniques we have managed to consistently offer tailor-made print products of the highest quality, on time and within budget for all our clients. Whether it’s stationery, brochures, business cards, books, flyers, corporate gifts or corporate we do it all. From innovative design to execution and delivery, we are here to help you! Our hands-on attentive customer service has always been the focus of our business. We care about your business and want it to look and feel the best it can.
+        </p>
+        <p class="col mb-5">
+          We understand that meeting deadlines while providing excellent customer service and high quality printing products is key to satisfying our clients. We therefore strive to constantly improve our services, product quality, print materials, sales and production levels, all while meeting demands from our local and international clients. We guarantee outstanding, flexible customer service is provided to all our clients at all times.
+          <br/>
+          <br/>
+          We also understand that price is a critical variable, as such we offer the most competitive pricing solutions in market without compromising quality to place ourselves ahead of the competition. If you do happen to find a better price on our listed products with comparable quality, we will be happy to beat it by 5%!!! <span style="color:brown; font-weight:bold" href="#">Now that's a good deal.</span>
+        </p>
+      </div>
+      
+  </div>
+</section-3>
+
+<!-- Footer Section -->
+
 <footer>
 
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
           <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <img src="./favicon-icon-grey-maroon.png" class="bi" height="24"><use url="../resources/logo-side-by-side-full-color.png"></use></svg>
